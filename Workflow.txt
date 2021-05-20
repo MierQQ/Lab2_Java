@@ -1,0 +1,9 @@
+desc #comment
+1 = sort
+2 = readfile input.txt
+3 = writefile output.txt
+4 = grep a
+5 = dump dump.txt
+6 = replace a sssss
+csed
+2 -> 1 -> 4 -> 5 -> 6 -> 3
